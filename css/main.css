@@ -1110,7 +1110,7 @@ footer #go-top a {
 	transition: all 0.2s ease-in-out;
 }
 footer #go-top a span {
-	margin-right: 10px;
+	margin-right: 100px;
 }
 footer #go-top a:hover {
 	background: #faec09;
