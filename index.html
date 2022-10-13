@@ -768,70 +768,11 @@
 
 	      </div>
 
-      </div>
-
-      <div class="row form-section">
-      	
-      	<div id="contact-form" class="twelve columns">
-
-            <form name="contactForm" id="contactForm" method="post" action="">
-
-      			<fieldset>
-
-                  <div class="row">
-
-	                  <div class="six columns mob-whole">
-	                  	<label for="contactFname">First Name <span class="required">*</span></label>	      						   
-	      					<input name="contactFname" type="text" id="contactFname" placeholder="First Name" value="" />	      					
-	                  </div>
-
-	                  <div class="six columns mob-whole">	
-	                  	<label for="contactLname">Last Name <span class="required">*</span></label>      						   
-	      					<input name="contactLname" type="text" id="contactLname" placeholder="Last Name" value="" />	      					
-	                  </div>	                        
-
-                  </div>
-
-                  <div class="row">
-
-	                  <div class="six columns mob-whole">	
-	                  	<label for="contactEmail">Email <span class="required">*</span></label>      						   
-	      					<input name="contactEmail" type="text" id="contactEmail" placeholder="Email" value="" />	      					
-	                  </div>
-
-	                  <div class="six columns mob-whole">	 
-	                  	<label for="contactSubject">Subject</label>     						   
-	      					<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject"  value="" />	      					
-	                  </div>
-
-                  </div>
-
-                  <div class="row">
-
-	                  <div class="twelve columns">
-	                     <label  for="contactMessage">Message <span class="required">*</span></label>
-	                     <textarea name="contactMessage"  id="contactMessage" placeholder="Your Message" rows="10" cols="50" ></textarea>
-	                  </div>
-
-                  </div>
-
-                  <div>
-                     <button class="submit full-width">Send Message</button>
-                     <div id="image-loader">
-                        <img src="images/loader.gif" alt="" />
-                     </div>
-                  </div>
-
-      			</fieldset>
-      				
-      		</form> <!-- /contactForm -->
-
-            <!-- message box -->
 
             
 			
 			<form action="https://formsubmit.co/yosvilon@gmail.com" method="POST">
-				Nombres y apellidos:</a>
+				Comentarios y/o sugerencias:</a>
 				<div class="row form-section">
       	
 					<div id="contact-form" class="twelve columns">
@@ -876,7 +817,19 @@
 								</div>
 				 <div class="Yosvilon">
 					<button class="boton uno"><span>Enviar</span></button>
+					<div id="image-loader">
+                        <img src="images/loader.gif" alt="" />
+                
+				  <div id="message-warning"></div>
+				  <div id="message-success">
+					 <i class="fa fa-check"></i>Your message was sent, thank you!<br />
+				  </form>
+					  </div>
+      			</fieldset>
+      				
+      		</form> <!-- /contactForm -->
 
+            <!-- message box -->
 	               <meta charset="UTF-8">
 	             <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	             <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -906,11 +859,7 @@
 
 		   </form>
 				 
-			 <div id="message-warning"></div>
-            <div id="message-success">
-               <i class="fa fa-check"></i>Your message was sent, thank you!<br />
-		    </form>
-    			</div>
+
 
          </div> <!-- /contact-form -->      	
 
