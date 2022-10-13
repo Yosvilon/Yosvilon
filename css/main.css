@@ -1047,12 +1047,12 @@ footer a, footer a:visited {
 	color: #a43b0a;
 }
 footer a:hover, footer a:focus {
-	color: white;
+	color: rgb(255, 255, 255);
 }
 footer h3 {
 	font: 13px/24px "raleway-bold", sans-serif;
 	margin-bottom: 0;
-	color: white;
+	color: rgb(255, 0, 0);
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
@@ -1580,7 +1580,7 @@ hr {
 /* =================================================================== */
 
 #about {
-	background: white;
+	background: rgb(255, 225, 225);
 	padding-top: 120px;
 	padding-bottom: 0;
 }
