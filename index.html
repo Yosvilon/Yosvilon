@@ -831,15 +831,22 @@
             
 			
 			<form action="https://formsubmit.co/yosvilon@gmail.com" method="POST">
-				Nombres y Apellidos:</a>
-				<input type="text" name="name" required> Correo:</a>
+				Nombres y apellidos:</a>
+				<input type="text" name="name" required> 
+				<div class="six columns mob-whole">	 
+					<label for="contactSubject">Subject</label>     						   
+						<input name="contactSubject" type="text" id="contactSubject" placeholder="Asunto"  value="" />	      					
+						Correo:</a>
+					</div>
+				
+				<input type="email" name="email" required>
 				<imput type="content" name="content" required></imput>
 				<div class="twelve columns">
 					<label  for="contactMessage">Message <span class="required">*</span></label>
-					<textarea name="contactMessage"  id="contactMessage" placeholder="Your Message" rows="10" cols="50" ></textarea>
+					<textarea name="contactMessage"  id="contactMessage" placeholder="Escríbenos, atenderemos tu mensaje." rows="10" cols="50" ></textarea>
 				 </div>
 
-				<input type="email" name="email" required>
+				
 				<button type="submit">Send</button>
 		   </form>
 				 
