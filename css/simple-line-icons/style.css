@@ -96,7 +96,7 @@ section header:after {
 }
 
 .masthead {
-	background-color: #fff;
+	background-color: rgb(255, 255, 255);
 	padding: 3em;
 	position: relative;
 	text-align: center;
@@ -180,7 +180,7 @@ h2 code {
 
 .classes {
 	background-color: #33383e;
-	color: #fff;
+	color: rgb(255, 255, 255);
 }
 
 .glyph {
